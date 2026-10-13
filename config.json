@@ -1,0 +1,6 @@
+{
+  "sheetUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR01hanjZDw4-0_pPcU_pU7kJtBdXYUV6loA1rqyImmXwZLUhJdBUMgwNQcfDXRXwdlLaTJYpikTcIP/pub?output=csv",
+  "fallbackCsv": "data/sample.csv",
+  "currency": "₱",
+  "thresholds": { "green": 100, "yellow": 90 }
+}
