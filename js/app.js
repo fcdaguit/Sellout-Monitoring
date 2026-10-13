@@ -258,7 +258,7 @@ function varList(title, g, nameKey) {
     (!g.pos.length && !g.neg.length ? '<tr><td class="note">No variance.</td></tr>' : '') + '</tbody></table></div>';
 }
 function renderExec(A) {
-  $('#narrative').innerHTML = '<span class="tag">AI-style summary</span>' + narrative(A);
+  $('#narrative').innerHTML = '<span class="tag">summary</span>' + narrative(A);
   if (!A.P && !A.A) { $('#execGrid').innerHTML = ''; return; }
   const L = A.lines;
   $('#execGrid').innerHTML =
